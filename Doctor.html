@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor</title>
+</head>
+<body>
+    <table border="0px" cellspacing="10px" cellpadding="10px"> 
+           
+        <tr>
+            <td rowspan="10">
+                <img src="doc.png" alt="" height="650px" width="600px" >
+            </td>
+            <td colspan="2" colspan="2" align="center">
+                <h1>Doctor Appointment form</h1><br>
+                <h3>_____________________________________</h3>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Appointment Date</label>
+            </td>
+            <td>
+                <input name="dob" type="date"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label>Appointment Date</label></td>
+            <td> <input name="time" type="time"/></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Name</label>
+                    <td>
+                        <input name="firstname" type="text" placeholder="first"/>  <input name="lastname" type="text" placeholder="Last" />
+                    </td>
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>
+                 <label>Gender</label>
+                </td>
+            <td>
+                <input type="radio" name="gender"  value="M">Male
+                <input type="radio" name="gender" value="F">Female
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>phone</label>
+            </td>
+            <td>
+                <input name="contact" type="number" min="10" max="1000" placeholder="###"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Address</label>
+            </td>
+            <td>
+                <input list="city" placeholder="city">
+                <datalist id="city">
+                    <option>Jalandhar</option>
+                    <option>Jallabad</option>
+                    <option>AMritsar</option>
+                    <option>Kartarpur</option>
+                    <option>Kapurthala</option>
+                </datalist>    
+                <input list="state" placeholder="state">
+                <datalist id="state">
+                    <option>Punjab</option>
+                    <option>Delhi</option>
+                    <option>Goa</option>
+                    <option>Jammu</option>
+                    
+                </datalist>    
+        
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Your quary</label>
+            </td>
+            <td>
+                <textarea name="address"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Appointment Time</label><br/>
+            </td>
+            <td>
+                Select which Appointment types you require <br/>
+                <input type="checkbox" name="hobby">Cervix checkup <br/>
+                <input type="checkbox" name="hobby">Heart check-up<br/>
+                <input type="checkbox" name="hobby">Eye check-up<br/>
+                <input type="checkbox" name="hobby">Hearting test
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" colspan="2" align="center">
+                <button type="submit">Send</button>
+            </td>
+            
+        </tr>
+
+
+                
+      
+        
+    </table>
+    
+</body>
+
+</html>

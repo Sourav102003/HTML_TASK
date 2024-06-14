@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+     
+    <table border="11px" cellspacing="0px" cellpadding="50px">
+        <tr>
+            <td rowspan="4">  </td>
+            <td rowspan="4"></td> 
+            <td></td>
+            <td></td>   
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>   
+        </tr>
+
+        <tr>
+            
+             
+            <td></td>
+            <td></td>   
+        </tr>
+
+        <tr>
+            
+             
+            <td></td>
+            <td></td>   
+        </tr>
+    </table>
+</body>
+</html>        <tr >
+    <td colspan="2" align="center">
+<h1>Doctor Appointment form</h1>
+   </td>
+</tr>
+    <tr>
+        <td>
+        <label>Appointment Date</label></td>
+        <td><input name="dob" type="date"/>
+         </td><br/>
+    </tr>
+    <tr>
+        <td>
+        <label>Appointment Date</label>
+        </td>
+        <td>
+        <input name="time" type="time"/>
+         </td>   
+    </tr><br/>
+
+    <tr>
+        <td>
+        <label>Name</label>
+    </td>
+        <td>
+        <input name="firstname" type="text"/>  <input name="lastname" type="text" />
+    </td></tr><br>
+    <tr>
+        <td>
+            <label>Gender</label></td>
+           <td> <input type="radio" name="gender" checked value="M">Male
+            <input type="radio" name="gender" value="F">Female
+            <input type="radio" name="gender" value="O">Others
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Contact</label>
+        </td>
+        <td>
+            <input name="contact" type="number" min="10" max="1000"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>State</label>
+            </td>
+            <td>
+                <select name="state">
+                    <option disabled selected>Choose one</option>
+                    <option value="1">Punjab</option>
+                    <option value="2">Haryana</option>
+                    <option value="3">Uttrakhand</option>
+                    <option value="4">Himachal</option>
+                </select>
+                <input list="city">
+                <datalist id="city">
+                    <option>Jalandhar</option>
+                    <option>Jallabad</option>
+                    <option>AMritsar</option>
+                    <option>Kartarpur</option>
+                    <option>Kapurthala</option>
+                </datalist>    
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label>Address</label>
+            </td>
+            <td>
+             <textarea name="address"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Appointment Time</label><br/></td>
+            <td>
+            Select which Appointment types you require <br/>
+            <input type="checkbox" name="hobby">Cervix checkup <br/>
+            <input type="checkbox" name="hobby">Heart check-up<br/>
+            <input type="checkbox" name="hobby">Eye check-up<br/>
+            <input type="checkbox" name="hobby">Hearting test
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <button type="submit">Send</button>
+        </td>
+    </tr>
